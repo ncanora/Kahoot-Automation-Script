@@ -27,7 +27,7 @@ To contribute to Automatic Kahoot Client, follow these steps:
 4. Push to the original branch: `git push origin <project_name>/<location>`
 5. Create the pull request.
 
-I consider this project, for all intents and purposes, finished. Because of the nature of webscraping tools, the program is fragile. Any change to the Kahoot website will break the program. However, if anyone would like to contribute, feel free!
+I consider this project, for all intents and purposes, finished. Because of the nature of webscraping tools, the program is fragile. Any change to the Kahoot website will break the program. However, if anyone would like to contribute, feel free! I will check pull requests.
 
 ## Contact
 
