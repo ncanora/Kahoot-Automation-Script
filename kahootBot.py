@@ -49,16 +49,21 @@ def automateKahootClient(pin, name, answerTable):
             question_number_text = question_element.text
             question_number = int(question_number_text.replace("Question", "").strip())
 
-            print(f"Question {question_number}: Number {question_number} also {answerTable.get(question_number)}")
+            print(f"Question {question_number}: {answerTable.get(question_number)}")
 
             # Answer the question
+            if (answerTable.get(question_number) == None):
+                print("Question does not have an associated answer, skipping...")
+                time.sleep(5)
+                continue
+
             kahootClientAnswer(driver, int(answerTable.get(question_number)[7]))
             time.sleep(.5)
 
         except Exception as e:
             # Program waits max of 5 mins for questions to appear before terminating
             print(e)
-            print("Something has gone wrong or the program has terminated")
+            print("Something has gone wrong or the program has terminated, exiting...")
             time.sleep(5)
             break
     
@@ -123,6 +128,13 @@ def kahootAnswersLookUp(quizid):
     for i, question in enumerate(questions, start=1):
         question_text = question.find_element(By.CLASS_NAME, "styles__Question-sc-19vxqaz-6").text
         answer_options = question.find_elements(By.CLASS_NAME, "styles__Choice-sc-19vxqaz-17")
+
+        # Skip if not multiple choice quiz question
+        question_block = driver.find_element(By.CSS_SELECTOR, 'div[data-functional-selector="question-block"]')
+        question_type = question_block.get_attribute('data-question-type')
+        if question_type != "quiz":
+            answerTable[i] = None
+            continue
 
         # Loop through each answer child of the question
         for option in answer_options:
