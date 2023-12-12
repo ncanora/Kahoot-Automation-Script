@@ -31,7 +31,7 @@ I consider this project, for all intents and purposes, finished. Because of the 
 
 ## Contact
 
-If you want to contact me, you can reach me at `<ncanora860@gmail.com>`.
+If you want to contact me, you can reach me at `ncanora860@gmail.com`.
 
 ## License
 
