@@ -11,7 +11,7 @@ This program uses Selenium and Chrome WebDriver to interact with a public Kahoot
 Before you begin, ensure you have met the following requirements:
 
 * You have installed the latest version of Python and pip.
-* You have installed Selenium and Chrome WebDriver.
+* You have installed Selenium and Chrome WebDriver (Put the ChromeWebDriver.exe and license file in the same directory as the python file).
 
 ## Using Automatic Kahoot Client
 
