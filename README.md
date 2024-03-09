@@ -34,4 +34,4 @@ If you want to contact me, you can reach me at `ncanora860@gmail.com`.
 
 ## License
 
-This project uses the Chromium WebDriver license which comes with any download of Chromium WebDriver.
+This project uses the Chromium WebDriver license which comes with any official download of Chromium WebDriver.
