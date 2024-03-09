@@ -13,21 +13,10 @@ Before you begin, ensure you have met the following requirements:
 * You have installed the latest version of Python and pip.
 * You have installed Selenium and Chrome WebDriver (Put the ChromeWebDriver.exe and license file in the same directory as the python file). You can install from [here](https://googlechromelabs.github.io/chrome-for-testing) or [here for older versions of Chrome](https://sites.google.com/chromium.org/driver/downloads)
 
-## Using Automatic Kahoot Client
+## Use
 
 To use check [releases](https://github.com/ncanora/Kahoot-Automation-Script/releases)
 
-## Contributing to Automatic Kahoot Client
-
-To contribute to Automatic Kahoot Client, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b <branch_name>`
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-I consider this project, for all intents and purposes, finished. Because of the nature of webscraping tools, the program is fragile. Any change to the Kahoot website will break the program.
 ## Contact
 
 If you want to contact me, you can reach me at `ncanora860@gmail.com`.
