@@ -17,10 +17,6 @@ Before you begin, ensure you have met the following requirements:
 
 To use check [releases](https://github.com/ncanora/Kahoot-Automation-Script/releases)
 
-## Contact
-
-If you want to contact me, you can reach me at `ncanora860@gmail.com`.
-
 ## License
 
 This project uses the Chromium WebDriver license which comes with any official download of Chromium WebDriver.
